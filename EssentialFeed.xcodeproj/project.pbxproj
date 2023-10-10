@@ -15,6 +15,7 @@
 		F9DECACC2AD49E1900A366BE /* RemoteFeedLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DECACB2AD49E1900A366BE /* RemoteFeedLoaderTests.swift */; };
 		F9DECACF2AD4A76B00A366BE /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DECACE2AD4A76B00A366BE /* RemoteFeedLoader.swift */; };
 		F9DECAD12AD4EABB00A366BE /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DECAD02AD4EABB00A366BE /* HTTPClient.swift */; };
+		F9DECAD32AD4EB1900A366BE /* FeedItemMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DECAD22AD4EB1900A366BE /* FeedItemMapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		F9DECACB2AD49E1900A366BE /* RemoteFeedLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoaderTests.swift; sourceTree = "<group>"; };
 		F9DECACE2AD4A76B00A366BE /* RemoteFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoader.swift; sourceTree = "<group>"; };
 		F9DECAD02AD4EABB00A366BE /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		F9DECAD22AD4EB1900A366BE /* FeedItemMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemMapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				F9DECACE2AD4A76B00A366BE /* RemoteFeedLoader.swift */,
 				F9DECAD02AD4EABB00A366BE /* HTTPClient.swift */,
+				F9DECAD22AD4EB1900A366BE /* FeedItemMapper.swift */,
 			);
 			name = "Feed API";
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9DECAC92AD49CE700A366BE /* FeedLoader.swift in Sources */,
+				F9DECAD32AD4EB1900A366BE /* FeedItemMapper.swift in Sources */,
 				F9DECACF2AD4A76B00A366BE /* RemoteFeedLoader.swift in Sources */,
 				F9DECAD12AD4EABB00A366BE /* HTTPClient.swift in Sources */,
 				F9DECAC72AD49C0D00A366BE /* FeedItem.swift in Sources */,
