@@ -18,6 +18,7 @@
 		F9DECAD32AD4EB1900A366BE /* FeedItemMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DECAD22AD4EB1900A366BE /* FeedItemMapper.swift */; };
 		F9DECAD82AD6D1AD00A366BE /* URLSessionHTTPClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DECAD72AD6D1AD00A366BE /* URLSessionHTTPClientTests.swift */; };
 		F9DECADB2AD6FC2100A366BE /* XCTestCase+MemoryLeakTrackingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DECADA2AD6FC2100A366BE /* XCTestCase+MemoryLeakTrackingHelper.swift */; };
+		F9DECADD2AD71A8300A366BE /* URLSessionHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DECADC2AD71A8300A366BE /* URLSessionHTTPClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		F9DECAD22AD4EB1900A366BE /* FeedItemMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemMapper.swift; sourceTree = "<group>"; };
 		F9DECAD72AD6D1AD00A366BE /* URLSessionHTTPClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClientTests.swift; sourceTree = "<group>"; };
 		F9DECADA2AD6FC2100A366BE /* XCTestCase+MemoryLeakTrackingHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+MemoryLeakTrackingHelper.swift"; sourceTree = "<group>"; };
+		F9DECADC2AD71A8300A366BE /* URLSessionHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				F9DECACE2AD4A76B00A366BE /* RemoteFeedLoader.swift */,
 				F9DECAD02AD4EABB00A366BE /* HTTPClient.swift */,
 				F9DECAD22AD4EB1900A366BE /* FeedItemMapper.swift */,
+				F9DECADC2AD71A8300A366BE /* URLSessionHTTPClient.swift */,
 			);
 			name = "Feed API";
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9DECAC92AD49CE700A366BE /* FeedLoader.swift in Sources */,
+				F9DECADD2AD71A8300A366BE /* URLSessionHTTPClient.swift in Sources */,
 				F9DECAD32AD4EB1900A366BE /* FeedItemMapper.swift in Sources */,
 				F9DECACF2AD4A76B00A366BE /* RemoteFeedLoader.swift in Sources */,
 				F9DECAD12AD4EABB00A366BE /* HTTPClient.swift in Sources */,
