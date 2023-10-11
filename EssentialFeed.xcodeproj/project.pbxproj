@@ -16,6 +16,7 @@
 		F9DECACF2AD4A76B00A366BE /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DECACE2AD4A76B00A366BE /* RemoteFeedLoader.swift */; };
 		F9DECAD12AD4EABB00A366BE /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DECAD02AD4EABB00A366BE /* HTTPClient.swift */; };
 		F9DECAD32AD4EB1900A366BE /* FeedItemMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DECAD22AD4EB1900A366BE /* FeedItemMapper.swift */; };
+		F9DECAD82AD6D1AD00A366BE /* URLSessionHTTPClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DECAD72AD6D1AD00A366BE /* URLSessionHTTPClientTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		F9DECACE2AD4A76B00A366BE /* RemoteFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoader.swift; sourceTree = "<group>"; };
 		F9DECAD02AD4EABB00A366BE /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		F9DECAD22AD4EB1900A366BE /* FeedItemMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemMapper.swift; sourceTree = "<group>"; };
+		F9DECAD72AD6D1AD00A366BE /* URLSessionHTTPClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClientTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				F9DECACB2AD49E1900A366BE /* RemoteFeedLoaderTests.swift */,
+				F9DECAD72AD6D1AD00A366BE /* URLSessionHTTPClientTests.swift */,
 			);
 			path = "Feed API";
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9DECACC2AD49E1900A366BE /* RemoteFeedLoaderTests.swift in Sources */,
+				F9DECAD82AD6D1AD00A366BE /* URLSessionHTTPClientTests.swift in Sources */,
 				F9DECABC2AD49BF900A366BE /* EssentialFeedTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
